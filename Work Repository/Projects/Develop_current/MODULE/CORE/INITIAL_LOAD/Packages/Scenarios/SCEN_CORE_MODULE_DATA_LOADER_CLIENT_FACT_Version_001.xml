@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="QoZamoEaDILnB2m+F3EpNA==" exportKeySalt="5b4af32b-3057-47e4-82da-b31f2a31ee62" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpScen">
+		<Field name="CecSessBehavior" type="java.lang.String">null</Field>
+	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:51.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[74e7f765-e2b8-40d6-92fd-92ad693c631c]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndPromptParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="IPop" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScenFolder" type="com.sunopsis.sql.DbInt"><![CDATA[21]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:51.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="RepGuid" type="java.lang.String">null</Field>
+	<Field name="RepVersion" type="java.lang.String">null</Field>
+	<Field name="RestartType" type="java.lang.String">null</Field>
+	<Field name="ScenName" type="java.lang.String"><![CDATA[CORE_MODULE_DATA_LOADER_CLIENT_FACT]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[133]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String"><![CDATA[<map-generation-info>
+   <node name="CLIENT_FACT" type="IKM" km="IKM Oracle Insert.GLOBAL">
+      <option name="CREATE_TARGET_TABLE" value="false" default="true"/>
+      <option name="INSERT_HINT" value="APPEND PARALLEL" default="true"/>
+      <option name="SELECT_HINT" value=" " default="true"/>
+      <option name="TRUNCATE_TARGET_TABLE" value="false" default="true"/>
+      <option name="CONSTRAINTS" value="None" default="true"/>
+      <option name="DELETE_ALL" value="false" default="true"/>
+      <option name="INDEXES" value="None" default="true"/>
+   </node>
+   <target name="CLIENT_FACT" resource="CLIENT_FACT" model="TARGET" logicalSchema="ODI_TARGET" forcedContext=""/>
+</map-generation-info>]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[02a64c3c-fcdf-4a65-89cf-78f7ca6980ed]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String"><![CDATA[ODI_TARGET]]></Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String"><![CDATA[TARGET]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ResName" type="java.lang.String"><![CDATA[CLIENT_FACT]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[133]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[CLIENT_FACT]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[M]]></Field>
+	<Field name="TableName" type="java.lang.String"><![CDATA[CLIENT_FACT]]></Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String">null</Field>
+	<Field name="VarOp" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1ed98415-780b-487d-ae40-98394e3910e6]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[133]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[MAP_MAIN]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[621f207e-d6fb-4270-96f6-28192829799e]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[133]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[ODI_TARGET_UNIT]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[PROD7]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[ODI_TARGET]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[
+INSERT 
+  /*+  APPEND PARALLEL  */ 
+  INTO <?= odiRef.getObjectName("L", "CLIENT_FACT", "ODI_TARGET", "D") ?>
+  (
+    ID ,
+    PROV_ID ,
+    PGM_ID ,
+    CLIENT_ID ,
+    CLIENT_UNIQUE_ID ,
+    OVERSIGHT_PROV_ID ,
+    TIME_KEY ,
+    AGE ,
+    AGE_RANGE ,
+    AGE_RANGE_INT ,
+    DAY_DURATION_BY_PGM ,
+    DAY_DURATION_BY_PGM_RANGE ,
+    DAY_DURATION_BY_PGM_RANGE_INT ,
+    CLIENT_REL_DATE ,
+    PGM_ADMSN_DATE ,
+    PGM_RELEASE_DATE 
+  ) 
+SELECT 
+  :ETLFORSELECTEDPROVIDER.CLIENT_FACT_SEQ_NEXTVAL ,
+  DIM_PROVIDER.ID ,
+  (CASE WHEN PROGRAM.ID IS NULL THEN -1
+ELSE PROGRAM.ID
+END) ,
+  CLIENT.ID ,
+  DIM_CLIENT_OVERSIGHT.UNIQUE_KEY ,
+  DIM_CLIENT_OVERSIGHT.OVERSIGHT_PROV_ID ,
+  DEMOGRAPHIC_TIME.ID ,
+  (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) ,
+  CASE WHEN (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) IS NULL THEN 'Unknown'
+        WHEN (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) < 0 THEN 'Invalid'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=0 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 3 THEN '0-3'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=4 and   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 5 THEN '4-5'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=6 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 17 THEN '6-17'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=18 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <=21 THEN '18-21'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=22 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <=40 THEN '22-40'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=41 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 65 THEN '41-65'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=66 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 85 THEN '66-85'
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=86 THEN '86+'
+END ,
+  CASE 
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=0 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 3 THEN 1
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=4 and   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 5 THEN 2
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=6 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 17 THEN 3
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=18 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <=21 THEN 4
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=22 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <=40 THEN 5
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=41 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 65 THEN 6
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=66 AND   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) <= 85 THEN 7
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) >=86 THEN 8
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) < 0 THEN 9
+        WHEN   (/* CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END */
+CASE WHEN ( CLIENT.BIRTH_DATE IS NULL OR DEMOGRAPHIC_TIME.END_DATE IS NULL )
+THEN -1
+WHEN (months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)) >= 0
+THEN FLOOR(months_between(DEMOGRAPHIC_TIME.END_DATE, CLIENT.BIRTH_DATE)/12)
+ELSE -1
+END) IS NULL THEN 10
+END ,
+  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END) ,
+  CASE  WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END) <0 THEN 'Invalid' 
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=30  THEN 'Within One Month'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=60  THEN 'One Month to Two Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=90  THEN 'Two Months to Three Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=120  THEN 'Three Months to Four Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=150  THEN 'Four Months to Five Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=180 THEN 'Five Months to Six Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=210  THEN 'Six Months to Seven Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=240  THEN 'Seven Months to Eight Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=270  THEN 'Eight Months to Nine Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=300  THEN 'Nine Months to Ten Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=330  THEN 'Ten Months to Eleven Months'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=365  THEN 'Eleven Months to One Year'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=730  THEN 'One Year to Two Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1095  THEN 'Two Years to Three Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1460  THEN 'Three Years to Four Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1825  THEN 'Four Years to Five Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2190 THEN 'Five Years to Six Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2555  THEN 'Six Years to Seven Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2920  THEN 'Seven Years to Eight Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=3285  THEN 'Eight Years to Nine Years'
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=3650  THEN 'Nine Years to Ten Years'
+ELSE 'More Than Ten Years'
+END ,
+  CASE  WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END) <0 THEN 9999 
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=30  THEN 1
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=60  THEN 2
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=90  THEN 3
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=120  THEN 4
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=150  THEN 5
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=180 THEN 6
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=210  THEN 7
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=240  THEN 8
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=270  THEN 9
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=300  THEN 10
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=330  THEN 11
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=365  THEN 12
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=730  THEN 13
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1095  THEN 14
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1460  THEN 15
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=1825  THEN 16
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2190 THEN 17
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2555  THEN 18
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=2920  THEN 19
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=3285  THEN 20
+WHEN  (CASE 
+  WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+    CASE 
+      WHEN PGM_PGMHSTRYUNION.RELEASE_DATE IS NOT NULL THEN       
+        CASE
+          WHEN LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)) < PGM_PGMHSTRYUNION.RELEASE_DATE THEN
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(PGM_PGMHSTRYUNION.RELEASE_DATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE )             
+        END       
+      ELSE
+        CASE 
+          WHEN EXTRACT (YEAR FROM SYSDATE) = DEMOGRAPHIC_TIME.YEAR_INT THEN
+            TRUNC(SYSDATE) - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+          ELSE
+            TRUNC(LAST_DAY(ADD_MONTHS(TRUNC(DEMOGRAPHIC_TIME.BEGIN_DATE , 'Year'),11)))  - TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE)
+        END
+    END
+  ELSE -1
+END)<=3650  THEN 21
+ELSE 22
+END ,
+  CASE WHEN PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL THEN
+  TO_NUMBER(CLIENT.ID || TO_CHAR(PGM_PGMHSTRYUNION.RELEASE_DATE,'YYYYMMDD'))  
+ELSE -1
+END ,
+  PGM_PGMHSTRYUNION.ADMISSION_DATE ,
+  PGM_PGMHSTRYUNION.RELEASE_DATE  
+FROM 
+  ((((<?= odiRef.getObjectName("L", "PROGRAM", "PROD7", "D") ?> PROGRAM  INNER JOIN  (
+SELECT 
+  PROGRAM_CLIENT.ID AS ID ,
+  PROGRAM_CLIENT.PROV_ID AS PROV_ID ,
+  PROGRAM_CLIENT.PGM_ID AS PGM_ID ,
+  PROGRAM_CLIENT.CLIENT_ID AS CLIENT_ID ,
+  PROGRAM_CLIENT.ADMISSION_DATE AS ADMISSION_DATE ,
+  PROGRAM_CLIENT.RELEASE_DATE AS RELEASE_DATE   
+FROM 
+  <?= odiRef.getObjectName("L", "PROGRAM_CLIENT", "PROD7", "D") ?> PROGRAM_CLIENT   
+WHERE
+  (PROGRAM_CLIENT.STATUS <> 0
+) 
+UNION ALL 
+SELECT 
+  PROGRAM_CLIENT_HISTORY.ID AS ID ,
+  PROGRAM_CLIENT_HISTORY.PROV_ID AS PROV_ID ,
+  PROGRAM_CLIENT_HISTORY.PGM_ID AS PGM_ID ,
+  PROGRAM_CLIENT_HISTORY.CLIENT_ID AS CLIENT_ID ,
+  PROGRAM_CLIENT_HISTORY.ADMISSION_DATE AS ADMISSION_DATE ,
+  PROGRAM_CLIENT_HISTORY.RELEASE_DATE AS RELEASE_DATE   
+FROM 
+  <?= odiRef.getObjectName("L", "PROGRAM_CLIENT_HISTORY", "PROD7", "D") ?> PROGRAM_CLIENT_HISTORY   
+  ) PGM_PGMHSTRYUNION  
+    ON  PGM_PGMHSTRYUNION.PGM_ID = PROGRAM.ID
+ )  RIGHT OUTER JOIN  <?= odiRef.getObjectName("L", "CLIENT", "PROD7", "D") ?> CLIENT  
+    ON  CLIENT.ID = PGM_PGMHSTRYUNION.CLIENT_ID
+ )  INNER JOIN  <?= odiRef.getObjectName("L", "DIM_PROVIDER", "ODI_TARGET", "D") ?> DIM_PROVIDER  
+    ON  CLIENT.PROV_ID = DIM_PROVIDER.ID
+ )  LEFT OUTER JOIN  <?= odiRef.getObjectName("L", "DIM_CLIENT_OVERSIGHT", "ODI_TARGET", "D") ?> DIM_CLIENT_OVERSIGHT  
+    ON  CLIENT.ID = DIM_CLIENT_OVERSIGHT.CLIENT_ID
+ )  INNER JOIN  <?= odiRef.getObjectName("L", "DEMOGRAPHIC_TIME", "ODI_TARGET", "D") ?> DEMOGRAPHIC_TIME  
+    ON  DEMOGRAPHIC_TIME.MONTH_INT <> -1
+AND (
+  ( PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL
+    AND EXTRACT( YEAR FROM PGM_PGMHSTRYUNION.ADMISSION_DATE ) >= 1970
+     AND TRUNC(PGM_PGMHSTRYUNION.ADMISSION_DATE,'Day')  <=   DEMOGRAPHIC_TIME.END_DATE
+    AND (PGM_PGMHSTRYUNION.RELEASE_DATE IS NULL
+         OR PGM_PGMHSTRYUNION.RELEASE_DATE  >= DEMOGRAPHIC_TIME.BEGIN_DATE)
+  )
+  OR
+  ( PGM_PGMHSTRYUNION.ADMISSION_DATE IS NULL
+    AND TRUNC(CLIENT.CREATED,'Day') <= DEMOGRAPHIC_TIME.END_DATE
+  )
+)
+/*DEMOGRAPHIC_TIME.MONTH_INT <> -1
+AND (
+  ( PGM_PGMHSTRYUNION.ADMISSION_DATE IS NOT NULL
+    AND EXTRACT( YEAR FROM PGM_PGMHSTRYUNION.ADMISSION_DATE ) >= 1970
+     AND PGM_PGMHSTRYUNION.ADMISSION_DATE  <=   LAST_DAY(TRUNC(DEMOGRAPHIC_TIME.END_DATE, 'Month'))
+    AND (PGM_PGMHSTRYUNION.RELEASE_DATE IS NULL
+         OR PGM_PGMHSTRYUNION.RELEASE_DATE  >= DEMOGRAPHIC_TIME.BEGIN_DATE)
+  )
+  OR
+  ( PGM_PGMHSTRYUNION.ADMISSION_DATE IS NULL
+    AND CLIENT.CREATED <= LAST_DAY(TRUNC(DEMOGRAPHIC_TIME.END_DATE, 'Month'))
+  )
+)*/
+      ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e3d5ec70-37bd-43e7-97d5-ab2161b79ff6]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[133]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Load CLIENT_FACT]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[IKM Oracle Insert]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[J]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENFOLDER.21]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7d70b876-0c1c-4c4f-9bad-664ace47eb88]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[ETL_PLAN_2018.1.0]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_SCENFOLDER]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PACKAGE.3]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[31d77d27-5a90-469b-a160-92a74710f789]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.INITIAL_LOAD.CORE MODULE DATA LOADER CLIENT_FACT]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.12.35]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.133]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[74e7f765-e2b8-40d6-92fd-92ad693c631c]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.INITIAL_LOAD.CORE MODULE DATA LOADER CLIENT_FACT.CORE_MODULE_DATA_LOADER_CLIENT_FACT Version 001]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE.SNP_SCEN]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.12.35.47]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.133.0]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[02a64c3c-fcdf-4a65-89cf-78f7ca6980ed]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
