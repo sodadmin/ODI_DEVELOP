@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="CNfIPuK73RhND6Q0hZsfaA==" exportKeySalt="a7dd8fbe-cdc0-4d9e-bbf7-b48e16235614" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
+		<Field name="CodSmod" type="java.lang.String"><![CDATA[HEALTH_TRACKING]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:42.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[31661bdd-a7ee-431f-8312-e64445b239f2]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[91]]></Field>
+	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[345]]></Field>
+	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:42.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="RevApplyPattern" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="RevPatternOrder" type="java.lang.String">null</Field>
+	<Field name="SmodName" type="java.lang.String"><![CDATA[HEALTH_TRACKING]]></Field>
+	<Field name="SmodType" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="TableNamePattern" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_MEDICATION_HISTORY]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ef26bf63-07ac-4d1b-9507-4e5e9071e503]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_MEDICATION_HISTORY.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ALL_ICD10_DIAGNOSIS_GROUP]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[02c4f0c3-7dd5-4782-ac51-e480732db3f2]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_ALL_ICD10_DIAGNOSIS_GROUP.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_IDF_DIAGNOSIS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7eb05f7c-42ea-4050-a808-0796268c484f]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_IDF_DIAGNOSIS.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_IDF_DIAGNOSIS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[627bdccc-0609-4699-a7bc-c4921325633e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_IDF_DIAGNOSIS.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_SEIZURE_ACTION_BEHAVE_DESC]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[384aa660-ae19-4d09-96df-2b314992d525]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_SEIZURE_ACTION_BEHAVE_DESC.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_SEIZURE_DETAILS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[0167ad07-cbae-4a6e-9954-7d0d7f986252]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_SEIZURE_DETAILS.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_HEIGHT_WEIGHT]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[43ea6827-e60c-4d78-a4fb-c2d14529f7f1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_HEIGHT_WEIGHT.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_HEIGHT_WEIGHT]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1b7e597b-236c-4f6b-b523-6cc4c757f5be]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_HEIGHT_WEIGHT.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_APPOINTMENT]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[726fb7c7-fb59-4016-b7e1-38d9d53a31f1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_APPOINTMENT.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_APPOINTMENT]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b7daf399-74bd-4dbb-9beb-031cb09b0e55]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_APPOINTMENT.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_MEDICATION_HISTORY]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2578d28c-a591-4340-8654-6714eb6bafd3]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_MEDICATION_HISTORY.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DIM_SKIN_WOUND]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9ad7352c-6c84-46e5-8d1d-f0a84ada94a7]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DIM_SKIN_WOUND.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_SKIN_WOUND]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9753a8c4-dad0-48d7-99ad-03054a0ccb03]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_SKIN_WOUND.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_IE_BA]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[642ff68c-7ea1-4449-8b39-3185c6c5b216]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_IE_BA.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_IE_BM]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[08658a58-6e14-40fd-b7c4-1dcfd56cb7aa]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_IE_BM.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_IE_FLUID]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[08b1e89e-29d7-4791-9016-76405d036df8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_IE_FLUID.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FACT_SEIZURE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7aecb82b-66be-4e25-b127-1512e88d5af3]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[26f81642ef87c067a17846b0dff7877f4b05223d]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_FACT_SEIZURE.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MODEL.91]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[9f767e2e-a340-49d7-9e5c-e81f29de6552]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[WAREHOUSE_DATASOURCE.TARGET]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MODFOLDER.SNP_MODEL]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[20.6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
