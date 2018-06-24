@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="6oMU0K5lHypWrmD2GP3jwg==" exportKeySalt="27339398-e084-414f-b5a9-1ddff31a6fdd" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapping">
+		<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6124019c-eeb9-4c9e-aab9-0d51e0e5344b]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsReusable" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="IContextMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[100]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScBaseMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScOrigMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="MetadataVersion" type="java.lang.String"><![CDATA[12]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[New_Reusable_Mapping]]></Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="ScOrigMappingTag" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapComp">
+		<Field name="Alias" type="java.lang.String">null</Field>
+	<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="CompTypeVersion" type="java.lang.String">null</Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d9d9de6e-c5ef-4777-af23-0c3802e40020]]></Field>
+	<Field name="IsCardinal" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IsHidden" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[735]]></Field>
+	<Field name="IMapCompType" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IOwnerMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[OUTPUTSIGNATURE]]></Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TypeName" type="java.lang.String"><![CDATA[OUTPUTSIGNATURE]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapCp">
+		<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="Cardinality" type="java.lang.String"><![CDATA[M]]></Field>
+	<Field name="CompSubType" type="java.lang.String">null</Field>
+	<Field name="CpOrder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="CpPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="Direction" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5b3d9f43-d5a7-4564-b2dc-e7cb0e72455f]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[1577]]></Field>
+	<Field name="IMapCpRole" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[735]]></Field>
+	<Field name="IParMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[INPUT1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapAttr">
+		<Field name="Alias" type="java.lang.String">null</Field>
+	<Field name="AttrPos" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="AttrType" type="java.lang.String"><![CDATA[P]]></Field>
+	<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="DataTypeName" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="ExtDtQualName" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a0c824ca-7c85-4827-9e80-34f5dd3c78e2]]></Field>
+	<Field name="GrpFunc" type="java.lang.String"><![CDATA[AUTO]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntDtQualName" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsDerivedName" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IsRequired" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IDataMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[3441]]></Field>
+	<Field name="IMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[1577]]></Field>
+	<Field name="IParMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Length" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[NEW_ATTR]]></Field>
+	<Field name="Prec" type="java.lang.String">null</Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Scale" type="java.lang.String">null</Field>
+	<Field name="SortPos" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="SourceDt" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapExpr">
+		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[803c0b34-3ab1-4ce6-9e64-89d0efbbb006]]></Field>
+	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsActive" type="java.lang.String">null</Field>
+	<Field name="IsParsed" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[3132]]></Field>
+	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[3441]]></Field>
+	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="ParsedText" type="java.lang.String">null</Field>
+	<Field name="ParsedTxt" type="java.lang.String"><![CDATA[select  
+add_months(startdate, step) firstday
+from ( 
+(select to_date('2001-01-01','YYYY-MM-DD') startdate, 
+step 
+from dual, 
+(select level - 1 step 
+from dual 
+connect by level <= ceil(MONTHS_BETWEEN(CURRENT_DATE,to_date('2001-01-01','YYYY-MM-DD')) ))) 
+) ]]></Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Text" type="java.lang.String">null</Field>
+	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[-1221670856]]></Field>
+	<Field name="TextOnly" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[select  
+add_months(startdate, step) firstday
+from ( 
+(select to_date('2001-01-01','YYYY-MM-DD') startdate, 
+step 
+from dual, 
+(select level - 1 step 
+from dual 
+connect by level <= ceil(MONTHS_BETWEEN(CURRENT_DATE,to_date('2001-01-01','YYYY-MM-DD')) ))) 
+) ]]></Field>
+	<Field name="ValidationCode" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapProp">
+		<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="DispNameKey" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c2796ced-4fbc-42aa-8025-267e7ed629a3]]></Field>
+	<Field name="IsHidden" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExecUnit" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[4739]]></Field>
+	<Field name="IMapPropParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPropDef" type="com.sunopsis.sql.DbInt"><![CDATA[191]]></Field>
+	<Field name="IPropXrefValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[XMLDiagramSettings]]></Field>
+	<Field name="PropDefGuid" type="java.lang.String">null</Field>
+	<Field name="PropDefQualifiedName" type="java.lang.String">null</Field>
+	<Field name="PropOrder" type="com.sunopsis.sql.DbInt"><![CDATA[-1]]></Field>
+	<Field name="PropType" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="PropValue" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapExpr">
+		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c6742edb-1641-4d69-b7bf-21c27c42e2d8]]></Field>
+	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsActive" type="java.lang.String">null</Field>
+	<Field name="IsParsed" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[3134]]></Field>
+	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[4739]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="ParsedText" type="java.lang.String">null</Field>
+	<Field name="ParsedTxt" type="java.lang.String">null</Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Text" type="java.lang.String">null</Field>
+	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TextOnly" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:DI='http://xmlns.omg.org/DI/2.0'>
+  <documentation exporter='Oracle IDE' exporterVersion='12.2.1'/>
+  <DI:Diagram xmi:type='DI:Diagram' xmi:id='idf817a525-19ec-40d1-8eaf-83ce43ae4730' zoom='0.0'>
+    <contained xmi:type='DI:GraphNode' xmi:id='id6a3eeea9-391d-47d9-a36d-302d4a12e246'>
+      <contained xmi:type='DI:GraphNode' xmi:id='id762c6c82-0c0f-4694-99fb-3a61d681e2ff'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size xmi:type='DI:Dimension' height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id0e560d6b-ba2c-497b-9d8b-697d1f26e6cb'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size xmi:type='DI:Dimension' height='80.0' width='170.0'/>
+      </contained>
+      <position xmi:type='DI:Point' x='435.0' y='195.0'/>
+      <property xmi:type='DI:Property' key='fillColor' value='#c6d6ff'/>
+      <property xmi:type='DI:Property' key='lineColor' value='#a5a5a5'/>
+      <property xmi:type='DI:Property' key='showAttributeType' value='true'/>
+      <property xmi:type='DI:Property' key='font' value='SansSerif,plain,11'/>
+      <property xmi:type='DI:Property' key='showAttributeVisibility' value='true'/>
+      <property xmi:type='DI:Property' key='showAttributes' value='true'/>
+      <property xmi:type='DI:Property' key='showStereotype' value='false'/>
+      <property xmi:type='DI:Property' key='fontColor' value='#0'/>
+      <property xmi:type='DI:Property' key='sortAttributesAlpha' value='true'/>
+      <property xmi:type='DI:Property' key='showPackage' value='false'/>
+      <property xmi:type='DI:Property' key='showAttributeStatic' value='true'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='ReusableMappingComponent:OUTPUTSIGNATURE:LogicalAttributeDisplayerNode:d9d9de6e-c5ef-4777-af23-0c3802e40020' presentation='SYMBOLIC'/>
+      <size xmi:type='DI:Dimension' height='80.0' width='170.0'/>
+    </contained>
+    <property xmi:type='DI:Property' key='PageOrientation' value='1'/>
+    <property xmi:type='DI:Property' key='showAlignmentRulers' value='false'/>
+    <property xmi:type='DI:Property' key='showGrid' value='false'/>
+    <property xmi:type='DI:Property' key='DiagramLayoutStyle' value='2'/>
+    <property xmi:type='DI:Property' key='maxEntriesInShape' value='10'/>
+    <property xmi:type='DI:Property' key='ContainerLayoutStyle' value='2'/>
+    <property xmi:type='DI:Property' key='maxShapeWidth' value='200'/>
+    <property xmi:type='DI:Property' key='EdgeCrossingType' value='0'/>
+    <property xmi:type='DI:Property' key='minLayoutDistance' value='40'/>
+    <property xmi:type='DI:Property' key='alignmentRulersColor' value='#99d9ea'/>
+    <property xmi:type='DI:Property' key='snapToGrid' value='true'/>
+    <property xmi:type='DI:Property' key='gridSize' value='15'/>
+    <property xmi:type='DI:Property' key='PaperOrientation' value='Portrait'/>
+    <property xmi:type='DI:Property' key='PrintAreaX' value='0.0'/>
+    <property xmi:type='DI:Property' key='PrintAreaY' value='0.0'/>
+    <property xmi:type='DI:Property' key='PrintAreaWidth' value='0.0'/>
+    <property xmi:type='DI:Property' key='PrintAreaHeight' value='0.0'/>
+    <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='etl_reusablemap_logical'/>
+  </DI:Diagram>
+</xmi:XMI>]]></Field>
+	<Field name="ValidationCode" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapProp">
+		<Field name="BusinessName" type="java.lang.String">null</Field>
+	<Field name="Descript" type="java.lang.String">null</Field>
+	<Field name="Description" type="java.lang.String">null</Field>
+	<Field name="DispNameKey" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[10239c3c-aab9-4ae2-a004-ecb4685fafd0]]></Field>
+	<Field name="IsHidden" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExecUnit" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapComp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[4738]]></Field>
+	<Field name="IMapPropParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapping" type="com.sunopsis.sql.DbInt"><![CDATA[182]]></Field>
+	<Field name="IPhyNode" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPropDef" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="IPropXrefValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[TARGET_LOAD_ORDER]]></Field>
+	<Field name="PropDefGuid" type="java.lang.String">null</Field>
+	<Field name="PropDefQualifiedName" type="java.lang.String">null</Field>
+	<Field name="PropOrder" type="com.sunopsis.sql.DbInt"><![CDATA[-1]]></Field>
+	<Field name="PropType" type="java.lang.String"><![CDATA[E]]></Field>
+	<Field name="PropValue" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpMapExpr">
+		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[16247b8d-0e08-4d75-8dd5-3d23521611bf]]></Field>
+	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsActive" type="java.lang.String">null</Field>
+	<Field name="IsParsed" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[3133]]></Field>
+	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[4738]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="ParsedText" type="java.lang.String">null</Field>
+	<Field name="ParsedTxt" type="java.lang.String">null</Field>
+	<Field name="PropValues" type="java.lang.String">null</Field>
+	<Field name="Text" type="java.lang.String">null</Field>
+	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TextOnly" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Txt" type="java.lang.String">null</Field>
+	<Field name="ValidationCode" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_FOLDER.100]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[9851a280-e7f9-4c28-87a5-6623e4ae6c6c]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPPING.182]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[6124019c-eeb9-4c9e-aab9-0d51e0e5344b]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPCOMPTYPE.9]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[9e04e530-7fd6-4b35-b0da-774753ed0002]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[OUTPUTSIGNATURE]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MAPCOMPTYPE]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPCOMP.735]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d9d9de6e-c5ef-4777-af23-0c3802e40020]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping.OUTPUTSIGNATURE]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20.15]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPCPROLE.14]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[0062a3d8-6a79-4a45-b6e6-51387cb97ef4]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[OUTPUTSIGNATURE.INPUT]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MAPCOMPTYPE.SNP_MAPCPROLE]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.5]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPCP.1577]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[5b3d9f43-d5a7-4564-b2dc-e7cb0e72455f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping.OUTPUTSIGNATURE.INPUT1]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20.15.6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPATTR.3441]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[a0c824ca-7c85-4827-9e80-34f5dd3c78e2]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping.OUTPUTSIGNATURE.INPUT1.NEW_ATTR]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPCOMP.SNP_MAPCP.SNP_MAPATTR]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20.15.6.8]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPPROPDEF.191]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[73fada02-4b4a-41b7-82a7-015a3bd763d9]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[XMLDiagramSettings]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MAPPROPDEF]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[18]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPPROP.4739]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[c2796ced-4fbc-42aa-8025-267e7ed629a3]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping.XMLDiagramSettings]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPPROP]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20.18]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPPROPDEF.196]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[cb9874d3-cabf-0dd9-e040-e80a9a4b735e]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[TARGET_LOAD_ORDER]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MAPPROPDEF]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MAPPROP.4738]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[10239c3c-aab9-4ae2-a004-ecb4685fafd0]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING.New_Reusable_Mapping.TARGET_LOAD_ORDER]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_MAPPING.SNP_MAPPROP]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7.20.17]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>

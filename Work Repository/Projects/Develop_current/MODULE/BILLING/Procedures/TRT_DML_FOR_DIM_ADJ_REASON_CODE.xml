@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="1XqR8aYlYrumGFls6cNf9Q==" exportKeySalt="c39c1c76-dad4-4105-bdf4-996a32f55ae8" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpTrt">
+		<Field name="CleanupOnError" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="CompType" type="java.lang.String">null</Field>
+	<Field name="DelegateClass" type="java.lang.String">null</Field>
+	<Field name="DelegateScript" type="java.lang.String">null</Field>
+	<Field name="ExpectedAstClass" type="java.lang.String">null</Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ebdb71c2-41d0-462a-b866-18741e4dc382]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndExcludeExUnitBegin" type="java.lang.String">null</Field>
+	<Field name="IndExcludeExUnitEnd" type="java.lang.String">null</Field>
+	<Field name="IndExcludeExUnitMain" type="java.lang.String">null</Field>
+	<Field name="IndExcludeMapBegin" type="java.lang.String">null</Field>
+	<Field name="IndExcludeMapCleanup" type="java.lang.String">null</Field>
+	<Field name="IndExcludeMapEnd" type="java.lang.String">null</Field>
+	<Field name="IndGenerateLoad" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndIsHidden" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndJrnMethod" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="IndSuppSetBased" type="java.lang.String">null</Field>
+	<Field name="IntgType" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IsConcurrent" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IsSeeded" type="java.lang.String">null</Field>
+	<Field name="IBaseCompKm" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[100]]></Field>
+	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[91]]></Field>
+	<Field name="IScBaseTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScOrigTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[256]]></Field>
+	<Field name="ITxtDelTxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtTrtTxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KimMultiDserver" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KmDefault" type="java.lang.String">null</Field>
+	<Field name="KmLang" type="java.lang.String">null</Field>
+	<Field name="KmSrcLang" type="java.lang.String">null</Field>
+	<Field name="KmSrcTechno" type="java.lang.String">null</Field>
+	<Field name="KmTechno" type="java.lang.String">null</Field>
+	<Field name="KmVersion" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LkmType" type="java.lang.String">null</Field>
+	<Field name="LChecksum" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LCode" type="java.lang.String">null</Field>
+	<Field name="OggJkm" type="java.lang.String">null</Field>
+	<Field name="OrdFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ProcType" type="java.lang.String">null</Field>
+	<Field name="ProdAstType" type="java.lang.String">null</Field>
+	<Field name="RepGuid" type="java.lang.String">null</Field>
+	<Field name="RepVersion" type="java.lang.String">null</Field>
+	<Field name="ScriptPath" type="java.lang.String">null</Field>
+	<Field name="ScOrigTrtTag" type="java.lang.String">null</Field>
+	<Field name="Subtype" type="java.lang.String">null</Field>
+	<Field name="TrtName" type="java.lang.String"><![CDATA[DML_FOR_DIM_ADJ_REASON_CODE]]></Field>
+	<Field name="TrtType" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="VariableDefs" type="java.lang.String">null</Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpLineTrt">
+		<Field name="AlwaysExe" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColITxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColLanguage" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechno" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefITxt" type="com.sunopsis.sql.DbInt"><![CDATA[1257]]></Field>
+	<Field name="DefLanguage" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[ODI_TARGET]]></Field>
+	<Field name="DefTechno" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[fec8d9a2-1844-4275-bc06-e6963fd2e113]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="ILineTrt" type="com.sunopsis.sql.DbInt"><![CDATA[534]]></Field>
+	<Field name="IRefLineTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IRefTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[256]]></Field>
+	<Field name="KcmAk" type="java.lang.String">null</Field>
+	<Field name="KcmCond" type="java.lang.String">null</Field>
+	<Field name="KcmErrDel" type="java.lang.String">null</Field>
+	<Field name="KcmJoin" type="java.lang.String">null</Field>
+	<Field name="KcmNull" type="java.lang.String">null</Field>
+	<Field name="KcmPk" type="java.lang.String">null</Field>
+	<Field name="KimDrvdSel" type="java.lang.String">null</Field>
+	<Field name="KimIdx" type="java.lang.String">null</Field>
+	<Field name="KimJrn" type="java.lang.String">null</Field>
+	<Field name="KimJrnPop" type="java.lang.String">null</Field>
+	<Field name="KjmCreate" type="java.lang.String">null</Field>
+	<Field name="KjmDrop" type="java.lang.String">null</Field>
+	<Field name="KjmExtend" type="java.lang.String">null</Field>
+	<Field name="KjmInstall" type="java.lang.String">null</Field>
+	<Field name="KjmLock" type="java.lang.String">null</Field>
+	<Field name="KjmPurge" type="java.lang.String">null</Field>
+	<Field name="KjmSetInstall" type="java.lang.String">null</Field>
+	<Field name="KjmSetUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmSubscribe" type="java.lang.String">null</Field>
+	<Field name="KjmTableOrder" type="java.lang.String">null</Field>
+	<Field name="KjmUninstall" type="java.lang.String">null</Field>
+	<Field name="KjmUnlock" type="java.lang.String">null</Field>
+	<Field name="KjmUnsubscribe" type="java.lang.String">null</Field>
+	<Field name="KlmAfterInt" type="java.lang.String">null</Field>
+	<Field name="KlmIdx" type="java.lang.String">null</Field>
+	<Field name="KlmJrn" type="java.lang.String">null</Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:06:23.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="LineType" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="SqlName" type="java.lang.String"><![CDATA[INSERT INTO DIM_ADJ_REASON_CODE]]></Field>
+	<Field name="SupportedSubtypes" type="java.lang.String">null</Field>
+	<Field name="VariableDefs" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpTxtHeader">
+		<Field name="Enc" type="java.lang.String">null</Field>
+	<Field name="EncKey" type="java.lang.String">null</Field>
+ <Field name="EncKeyVect" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[51cf36af-fb94-4c2a-b7b2-1ae9a3f21198]]></Field>
+	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[1257]]></Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[102]]></Field>
+	<Field name="SqlIndGrp" type="java.lang.String"><![CDATA[2]]></Field>
+ <Field name="Txt" type="java.lang.String"><![CDATA[INSERT ALL 
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('1','Deductible Amount')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('2','Coinsurance Amount')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('3','Co-payment Amount')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('4','The procedure code is inconsistent with the modifier used or a required modifier is missing.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('5','The procedure code/bill type is inconsistent with the place of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('6','The procedure/revenue code is inconsistent with the patients age.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('7','The procedure/revenue code is inconsistent with the patients gender.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('8','The procedure code is inconsistent with the provider type/specialty (taxonomy).')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('9','The diagnosis is inconsistent with the patients age.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('10','The diagnosis is inconsistent with the patients gender.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('11','The diagnosis is inconsistent with the procedure.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('12','The diagnosis is inconsistent with the provider type.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('13','The date of death precedes the date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('14','The date of birth follows the date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('15','The authorization number is missing  invalid  or does not apply to the billed services or provider.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('16','Claim/service lacks information which is needed for adjudication.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('17','Requested information was not provided or was insufficient/incomplete.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('18','Duplicate claim/service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('19','This is a work-related injury/illness and thus the liability of the Workers Compensation Carrier.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('20','This injury/illness is covered by the liability carrier.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('21','This injury/illness is the liability of the no-fault carrier.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('22','This care may be covered by another payer per coordination of benefits.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('23','The impact of prior payer(s) adjudication including payments and/or adjustments.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('24','Charges are covered under a capitation agreement/managed care plan.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('25','Payment denied. Your Stop loss deductible has not been met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('26','Expenses incurred prior to coverage.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('27','Expenses incurred after coverage terminated.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('28','Coverage not in effect at the time the service was provided.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('29','The time limit for filing has expired.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('30','Payment adjusted because the patient has not met the required eligibility  spend down  waiting  or residency requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('31','Patient cannot be identified as our insured.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('32','Our records indicate that this dependent is not an eligible dependent as defined.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('33','Insured has no dependent coverage.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('34','Insured has no coverage for newborns.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('35','Lifetime benefit maximum has been reached.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('36','Balance does not exceed co-payment amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('37','Balance does not exceed deductible.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('38','Services not provided or authorized by designated (network/primary care) providers.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('39','Services denied at the time authorization/pre-certification was requested.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('40','Charges do not meet qualifications for emergent/urgent care.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('41','Discount agreed to in Preferred Provider contract.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('42','Charges exceed our fee schedule or maximum allowable amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('43','Gramm-Rudman reduction.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('44','Prompt-pay discount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('45','Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('46','This (these) service(s) is (are) not covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('47','This (these) diagnosis(es) is (are) not covered  missing  or are invalid.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('48','This (these) procedure(s) is (are) not covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('49','These are non-covered services because this is a routine exam or screening procedure done in conjunction with a routine exam.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('50','These are non-covered services because this is not deemed a medical necessity by the payer.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('51','These are non-covered services because this is a pre-existing condition.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('52','The referring/prescribing/rendering provider is not eligible to refer/prescribe/order/perform the service billed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('53','Services by an immediate relative or a member of the same household are not covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('54','Multiple physicians/assistants are not covered in this case.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('55','Procedure/treatment is deemed experimental/investigational by the payer.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('56','Procedure/treatment has not been deemed proven to be effective by the payer.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('57','Payment denied/reduced because the payer deems the information submitted does not support this level of service  this many services  this length of service  this dosage  or this days supply.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('58','Treatment was deemed by the payer to have been rendered in an inappropriate or invalid place of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('59','Processed based on multiple or concurrent procedure rules. (For example multiple surgery or diagnostic imaging  concurrent anesthesia.)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('60','Charges for outpatient services are not covered when performed within a period of time prior to or after inpatient services.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('61','Penalty for failure to obtain second surgical opinion.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('62','Payment denied/reduced for absence of  or exceeded  pre-certification/authorization.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('63','Correction to a prior claim.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('64','Denial reversed per Medical Review.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('65','Procedure code was incorrect. This payment reflects the correct code.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('66','Blood Deductible.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('67','Lifetime reserve days. (Handled in QTY  QTY01=LA)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('68','DRG weight. (Handled in CLP12)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('69','Day outlier amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('70','Cost outlier - Adjustment to compensate for additional costs.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('71','Primary Payer amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('72','Coinsurance day. (Handled in QTY  QTY01=CD)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('73','Administrative days.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('74','Indirect Medical Education Adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('75','Direct Medical Education Adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('76','Disproportionate Share Adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('77','Covered days. (Handled in QTY  QTY01=CA)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('78','Non-Covered days/Room charge adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('79','Cost Report days. (Handled in MIA15)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('80','Outlier days. (Handled in QTY  QTY01=OU)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('81','Discharges.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('82','PIP days.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('83','Total visits.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('84','Capital Adjustment. (Handled in MIA)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('85','Patient Interest Adjustment (Use Only Group code PR)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('86','Statutory Adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('87','Transfer amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('88','Adjustment amount represents collection against receivable created in prior overpayment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('89','Professional fees removed from charges.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('90','Ingredient cost adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('91','Dispensing fee adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('92','Claim Paid in full.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('93','No Claim level Adjustments.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('94','Processed in Excess of charges.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('95','Plan procedures not followed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('96','Non-covered charge(s).')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('97','The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('98','The hospital must file the Medicare claim for this inpatient non-physician service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('99','Medicare Secondary Payer Adjustment Amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('100','Payment made to patient/insured/responsible party/employer.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('101','Predetermination: anticipated payment upon completion of services or claim adjudication.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('102','Major Medical Adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('103','Provider promotional discount (e.g.  Senior citizen discount).')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('104','Managed care withholding.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('105','Tax withholding.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('106','Patient payment option/election not in effect.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('107','The related or qualifying claim/service was not identified on this claim.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('108','Rent/purchase guidelines were not met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('109','Claim not covered by this payer/contractor. You must send the claim to the correct payer/contractor.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('110','Billing date predates service date.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('111','Not covered unless the provider accepts assignment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('112','Service not furnished directly to the patient and/or not documented.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('113','Payment denied because service/procedure was provided outside the United States or as a result of war.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('114','Procedure/product not approved by the Food and Drug Administration.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('115','Procedure postponed  canceled  or delayed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('116','The advance indemnification notice signed by the patient did not comply with requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('117','Transportation is only covered to the closest facility that can provide the necessary care.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('118','ESRD network support adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('119','Benefit maximum for this time period or occurrence has been reached.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('120','Patient is covered by a managed care plan.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('121','Indemnification adjustment - compensation for outstanding member responsibility.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('122','Psychiatric reduction.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('123','Payer refund due to overpayment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('124','Payer refund amount - not our patient.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('125','Submission/billing error(s).')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('126','Deductible -- Major Medical')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('127','Coinsurance -- Major Medical')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('128','Newborns services are covered in the mothers Allowance.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('129','Prior processing information appears incorrect.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('130','Claim submission fee.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('131','Claim specific negotiated discount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('132','Prearranged demonstration project adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('133','The disposition of this claim/service is pending further review.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('134','Technical fees removed from charges.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('135','Interim bills cannot be processed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('136','Failure to follow prior payers coverage rules.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('137','Regulatory Surcharges  Assessments  Allowances or Health Related Taxes.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('138','Appeal procedures not followed or time limits not met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('139','Contracted funding agreement - Subscriber is employed by the provider of services.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('140','Patient/Insured health identification number and name do not match.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('141','Claim spans eligible and ineligible periods of coverage.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('142','Monthly Medicaid patient liability amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('143','Portion of payment deferred.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('144','Incentive adjustment  e.g. preferred product/service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('145','Premium payment withholding')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('146','Diagnosis was invalid for the date(s) of service reported.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('147','Provider contracted/negotiated rate expired or not on file.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('148','Information from another provider was not provided or was insufficient/incomplete.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('149','Lifetime benefit maximum has been reached for this service/benefit category.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('150','Payer deems the information submitted does not support this level of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('151','Payment adjusted because the payer deems the information submitted does not support this many/frequency of services.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('152','Payer deems the information submitted does not support this length of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('153','Payer deems the information submitted does not support this dosage.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('154','Payer deems the information submitted does not support this days supply.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('155','Patient refused the service/procedure.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('156','Flexible spending account payments.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('157','Service/procedure was provided as a result of an act of war.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('158','Service/procedure was provided outside of the United States.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('159','Service/procedure was provided as a result of terrorism.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('160','Injury/illness was the result of an activity that is a benefit exclusion.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('161','Provider performance bonus')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('162','State-mandated Requirement for Property and Casualty  see Claim Payment Remarks Code for specific explanation.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('163','Attachment referenced on the claim was not received.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('164','Attachment referenced on the claim was not received in a timely fashion.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('165','Referral absent or exceeded.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('166','These services were submitted after this payers responsibility for processing claims under this plan ended.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('167','This (these) diagnosis(es) is (are) not covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('168','Service(s) have been considered under the patients medical plan. Benefits are not available under this dental plan.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('169','Alternate benefit has been provided.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('170','Payment is denied when performed/billed by this type of provider.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('171','Payment is denied when performed/billed by this type of provider in this type of facility.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('172','Payment is adjusted when performed/billed by a provider of this specialty.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('173','Service was not prescribed by a physician.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('174','Service was not prescribed prior to delivery.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('175','Prescription is incomplete.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('176','Prescription is not current.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('177','Patient has not met the required eligibility requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('178','Patient has not met the required spend down requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('179','Patient has not met the required waiting requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('180','Patient has not met the required residency requirements.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('181','Procedure code was invalid on the date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('182','Procedure modifier was invalid on the date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('183','The referring provider is not eligible to refer the service billed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('184','The prescribing/ordering provider is not eligible to prescribe/order the service billed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('185','The rendering provider is not eligible to perform the service billed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('186','Level of care change adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('187','Consumer Spending Account payments (includes but is not limited to Flexible Spending Account  Health Savings Account  Health Reimbursement Account  etc.)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('188','This product/procedure is only covered when used according to FDA recommendations.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('189','Not otherwise classified or unlisted procedure code (CPT/HCPCS) was billed when there is a specific procedure code for this procedure/service')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('190','Payment is included in the allowance for a Skilled Nursing Facility (SNF) qualified stay.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('191','Not a work related injury/illness and thus not the liability of the workers compensation carrier.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('192','Non standard adjustment code from paper remittance.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('193','Original payment decision is being maintained. Upon review  it was determined that this claim was processed properly.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('194','Anesthesia performed by the operating physician  the assistant surgeon or the attending physician.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('195','Refund issued to an erroneous priority payer for this claim/service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('196','Claim/service denied based on prior payers coverage determination.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('197','Precertification/authorization/notification absent.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('198','Precertification/authorization exceeded.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('199','Revenue code and Procedure code do not match.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('200','Expenses incurred during lapse in coverage')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('201','Workers Compensation case settled. Patient is responsible for amount of this claim/service through WC Medicare set aside arrangement or other agreement.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('202','Non-covered personal comfort or convenience services.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('203','Discontinued or reduced service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('204','This service/equipment/drug is not covered under the patients current benefit plan')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('205','Pharmacy discount card processing fee')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('206','National Provider Identifier - missing.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('207','National Provider identifier - Invalid format')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('208','National Provider Identifier - Not matched.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('209','Per regulatory or other agreement. The provider cannot collect this amount from the patient. However  this amount may be billed to subsequent payer. Refund to patient if collected.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('210','Payment adjusted because pre-certification/authorization not received in a timely fashion')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('211','National Drug Codes (NDC) not eligible for rebate  are not covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('212','Administrative surcharges are not covered')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('213','Non-compliance with the physician self referral prohibition legislation or payer policy.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('214','Workers Compensation claim adjudicated as non-compensable. This Payer not liable for claim or service/treatment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('215','Based on subrogation of a third party settlement')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('216','Based on the findings of a review organization')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('217','Based on payer reasonable and customary fees. No maximum allowable defined by legislated fee arrangement.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('218','Based on entitlement to benefits')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('219','Based on extent of injury')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('220','The applicable fee schedule does not contain the billed code. Please resubmit a bill with the appropriate fee schedule code(s) that best describe the service(s) provided and supporting documentation if required.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('221','Workers Compensation claim is under investigation.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('222','Exceeds the contracted maximum number of hours/days/units by this provider for this period. This is not patient specific.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('223','Adjustment code for mandated federal  state or local law/regulation that is not already covered by another code and is mandated before a new code can be created.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('224','Patient identification compromised by identity theft. Identity verification required for processing this and future claims.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('225','Penalty or Interest Payment by Payer (Only used for plan to plan encounter reporting within the 837)')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('226','Information requested from the Billing/Rendering Provider was not provided or was insufficient/incomplete.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('227','Information requested from the patient/insured/responsible party was not provided or was insufficient/incomplete.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('228','Denied for failure of this provider  another provider or the subscriber to supply requested information to a previous payer for their adjudication')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('229','Partial charge amount not considered by Medicare due to the initial claim Type of Bill being 12X.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('230','No available or correlating CPT/HCPCS code to describe this service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('231','Mutually exclusive procedures cannot be done in the same day/setting.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('232','Institutional Transfer Amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('233','Services/charges related to the treatment of a hospital-acquired condition or preventable medical error.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('234','This procedure is not paid separately.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A0','Patient refund amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A1','Claim/Service denied.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A2','Contractual adjustment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A3','Medicare Secondary Payer liability met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A4','Medicare Claim PPS Capital Day Outlier Amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A5','Medicare Claim PPS Capital Cost Outlier Amount.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A6','Prior hospitalization or 30 day transfer requirement not met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A7','Presumptive Payment Adjustment')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('A8','Ungroupable DRG.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B1','Non-covered visits.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B2','Covered visits.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B3','Covered charges.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B4','Late filing penalty.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B5','Coverage/program guidelines were not met or were exceeded.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B6','This payment is adjusted when performed/billed by this type of provider  by this type of provider in this type of facility  or by a provider of this specialty.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B7','This provider was not certified/eligible to be paid for this procedure/service on this date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B8','Alternative services were available  and should have been utilized.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B9','Patient is enrolled in a Hospice.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B10','Allowed amount has been reduced because a component of the basic procedure/test was paid. The beneficiary is not liable for more than the charge limit for the basic procedure/test.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B11','The claim/service has been transferred to the proper payer/processor for processing. Claim/service not covered by this payer/processor.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B12','Services not documented in patients medical records.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B13','Previously paid. Payment for this claim/service may have been provided in a previous payment.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B14','Only one visit or consultation per physician per day is covered.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B15','This service/procedure requires that a qualifying service/procedure be received and covered. The qualifying other service/procedure has not been received/adjudicated.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B16','New Patient qualifications were not met.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B17','Payment adjusted because this service was not prescribed by a physician  not prescribed prior to delivery  the prescription is incomplete  or the prescription is not current.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B18','This procedure code and modifier were invalid on the date of service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B19','Claim/service adjusted because of the finding of a Review Organization.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B20','Procedure/service was partially or fully furnished by another provider.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B21','The charges were reduced because the service/care was partially furnished by another physician.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B22','This payment is adjusted based on the diagnosis.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('B23','Procedure billed is not authorized per your Clinical Laboratory Improvement Amendment (CLIA) proficiency test.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D1','Claim/service denied. Level of subluxation is missing or inadequate.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D2','Claim lacks the name  strength  or dosage of the drug furnished.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D3','Claim/service denied because information to indicate if the patient owns the equipment that requires the part or supply was missing.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D4','Claim/service does not indicate the period of time for which this will be needed.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D5','Claim/service denied. Claim lacks individual lab codes included in the test.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D6','Claim/service denied. Claim did not include patients medical record for the service.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D7','Claim/service denied. Claim lacks date of patients most recent physician visit.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D8','Claim/service denied. Claim lacks indicator that x-ray is available for review.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D9','Claim/service denied. Claim lacks invoice or statement certifying the actual cost of the lens  less discounts or the type of intraocular lens used.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D10','Claim/service denied. Completed physician financial relationship form not on file.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D11','Claim lacks completed pacemaker registration form.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D12','Claim/service denied. Claim does not identify who performed the purchased diagnostic test or the amount you were charged for the test.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D13','Claim/service denied. Performed by a facility/supplier in which the ordering/referring physician has a financial interest.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D14','Claim lacks indication that plan of treatment is on file.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D15','Claim lacks indication that service was supervised or evaluated by a physician.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D16','Claim lacks prior payer payment information.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D17','Claim/Service has invalid non-covered days.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D18','Claim/Service has missing diagnosis information.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D19','Claim/Service lacks Physician/Operative or other supporting documentation')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D20','Claim/Service missing service/product information.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D21','This (these) diagnosis(es) is (are) missing or are invalid')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D22','Reimbursement was adjusted for the reasons to be provided in separate correspondence.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('D23','This dual eligible patient is covered by Medicare Part D per Medicare Retro-Eligibility.')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('W1','Workers Compensation State Fee Schedule Adjustment')
+INTO DIM_ADJ_REASON_CODE(ID,NAME) VALUES ('N/A','Not Applicable')
+SELECT * FROM DUAL
+]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpOrigTxt">
+		<Field name="GlobalId" type="java.lang.String">null</Field>
+	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[102]]></Field>
+	<Field name="OrigineName" type="java.lang.String"><![CDATA[Target Technology]]></Field>
+	<Field name="SnpsCol" type="java.lang.String"><![CDATA[DEF_I_TXT]]></Field>
+	<Field name="SnpsTable" type="java.lang.String"><![CDATA[SNP_LINE_TRT]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_FOLDER.100]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[9851a280-e7f9-4c28-87a5-6623e4ae6c6c]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.BILLING]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PROJECT.91]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b336a62f-723f-400a-9161-aee6e3ac89c0]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TXTHEADER.1257]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[51cf36af-fb94-4c2a-b7b2-1ae9a3f21198]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TRT.256]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[ebdb71c2-41d0-462a-b866-18741e4dc382]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Develop_current.DML_FOR_DIM_ADJ_REASON_CODE]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_TRT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.27]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
