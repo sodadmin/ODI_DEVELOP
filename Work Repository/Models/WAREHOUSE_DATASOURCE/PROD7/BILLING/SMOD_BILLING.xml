@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="IlsCPY1pZ/5sFk9+BQjRMw==" exportKeySalt="4112a0f0-ff6e-48a7-8dbf-661f6db46554" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
+		<Field name="CodSmod" type="java.lang.String"><![CDATA[BILLING]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:48.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9a65fcfb-9a45-46f4-ac8b-1ea0bf030d9d]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[92]]></Field>
+	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[354]]></Field>
+	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-06-21 03:05:48.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="RevApplyPattern" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="RevPatternOrder" type="java.lang.String">null</Field>
+	<Field name="SmodName" type="java.lang.String"><![CDATA[BILLING]]></Field>
+	<Field name="SmodType" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="TableNamePattern" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_SERVICE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[531fff17-74cb-413c-b85e-4b365243211c]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_SERVICE.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_DESC_CODE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[4841ad4a-503d-4aa0-81b8-fd6c90524fcb]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_DESC_CODE.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_PROVIDER]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c584295b-19cf-45d5-b7c8-7ed4dcf8c3c0]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_PROVIDER.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_SERVICE_AUTH]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[96f1ddde-4c02-4592-90f0-a6b5d4000078]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_SERVICE_AUTH.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_FUNDING_SOURCE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[31baaefc-c34e-4919-8cda-add0ac16fecf]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_FUNDING_SOURCE.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_DATA]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[56aa9202-efa8-48ad-bf2c-0e598b144d11]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_DATA.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_INST_CLAIM]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b2b44554-3a5d-4fc2-81a3-c5a6e807533e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_INST_CLAIM.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_CLAIM]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[46af312d-05f5-494e-82f5-75a331b53a7e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_CLAIM.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_CLAIM_RV]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b96febb4-7da4-49ed-a0be-37cf801e765e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_CLAIM_RV.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_INST_CLAIM_RV]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[99a1fb1a-b827-4cc3-aa80-6ee679e4874d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_INST_CLAIM_RV.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_TRADING_PARTNER]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[fe153ece-6923-406d-b1fc-76db9d93bd31]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_TRADING_PARTNER.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BILL_PAYER]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7d3d8afc-2c98-45ef-b940-bc3dfeaad16a]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ee2ef5a06ce3a83baf1424e56ee4f235900a357]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BILL_PAYER.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MODEL.92]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[2a004c6d-c467-4431-b2ae-5498ad6d58cb]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[WAREHOUSE_DATASOURCE.PROD7]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MODFOLDER.SNP_MODEL]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[20.5]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
